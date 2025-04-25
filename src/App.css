@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-color: whitesmoke;
+  max-width: 1280px;
+}
+
+
+.custom ::selection{
+  background-color: rgb(198, 27, 198);
+  color: white;
+}
