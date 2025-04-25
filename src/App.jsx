@@ -54,7 +54,7 @@ function App() {
             </div>
             <div className="w-2/5 flex justify-end">
               <img
-                src="../public/assets/My prof pic.png"
+                src="assets/My prof pic.png"
                 alt="Farhan"
                 className="w-full h-auto object-cover"
               />
@@ -135,37 +135,37 @@ function App() {
                   title: 'ChainFund',
                   category: 'Blockchain Project',
                   desc: 'A smart contract crowdfunding platform powered by smart contracts.',
-                  img: '../public/assets/projects/3d-rendering-blockchain-technology (1).jpg',
+                  img: 'assets/projects/3d-rendering-blockchain-technology (1).jpg',
                 },
                 {
                   title: 'MetaLease',
                   category: 'Blockchain Project',
                   desc: 'Blockchain-based solution for secure digital leasing and asset rentals.',
-                  img: '../public/assets/projects/3d-rendering-blockchain-technology.jpg',
+                  img: 'assets/projects/3d-rendering-blockchain-technology.jpg',
                 },
                 {
                   title: 'BlockCerts',
                   category: 'Blockchain Project',
                   desc: 'Tamper-proof certificate issuance and verification on the blockchain.',
-                  img: '../public/assets/projects/5348934.jpg',
+                  img: 'assets/projects/5348934.jpg',
                 },
                 {
                   title: 'DeTrust Vault',
                   category: 'Blockchain Project',
                   desc: 'A non-custodial DeFi wallet with built-in trustless escrow services.',
-                  img: '../public/assets/projects/812.jpg',
+                  img: 'assets/projects/812.jpg',
                 },
                 {
                   title: 'NFTicket',
                   category: 'Blockchain Project',
                   desc: 'NFT-powered event ticketing system to prevent fraud and scalping.',
-                  img: '../public/assets/projects/blockchain-technology-cartoon-illustration.jpg',
+                  img: 'assets/projects/blockchain-technology-cartoon-illustration.jpg',
                 },
                 {
                   title: 'DAOgenda',
                   category: 'Blockchain Project',
                   desc: 'A governance platform enabling transparent DAO decision-making and voting.',
-                  img: '../public/assets/projects/on_chain.jpg',
+                  img: 'assets/projects/on_chain.jpg',
                 },
               ].map((project, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden text-left">
